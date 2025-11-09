@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://clubentrepreneurhackathon.github.io/sitemap.xml
