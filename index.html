@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title data-key="meta_title">Club Entrepreneurs Hackathon - DeVinci Challenge</title>
+    <meta name="description" data-key="meta_description" content="Join the DeVinci Challenge, an inter-school entrepreneurial hackathon to reveal student talent. Innovate, collaborate, and create a concrete impact.">
+    <meta name="keywords" content="Hackathon, DeVinci Challenge, Club Entrepreneurs, Pôle Léonard de Vinci, EMLV, ESILV, IIM, entrepreneurship, startup, student">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Schema.org for Hackathon Event -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hackathon",
+      "name": "Challenge DeVinci - The Entrepreneurial Hackathon",
+      "description": "An inter-school hackathon bringing together talent from HEC, Sciences Po, ESSEC, EMLV, ESILV, and more. A weekend to innovate, collaborate, and create a concrete impact.",
+      "startDate": "2026-02-20T09:00:00+01:00",
+      "endDate": "2026-02-22T18:00:00+01:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Pôle Léonard de Vinci",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "12 Av. Léonard de Vinci",
+          "addressLocality": "Courbevoie",
+          "postalCode": "92400",
+          "addressRegion": "Paris La Défense",
+          "addressCountry": "FR"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Club Entrepreneurs",
+        "url": "https://clubentrepreneurhackathon.github.io"
+      },
+       "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "#participate"
+      }
+    }
+    </script>
+
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo.jpg" alt="Logo of DeVinci Challenge Hackathon">
+                <span>DeVinci Challenge</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-key="nav_home">Home</a></li>
+                <li><a href="#guidelines" class="nav-link" data-key="nav_guidelines">Guidelines</a></li>
+                <li><a href="#agenda" class="nav-link" data-key="nav_agenda">Agenda</a></li>
+                <li><a href="#participate" class="nav-link" data-key="nav_participate">Participate</a></li>
+                <li><a href="#contact" class="nav-link" data-key="nav_contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <div class="language-switcher">
+                    <i class="fas fa-globe"></i>
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                    </select>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 data-key="hero_title">DeVinci Challenge: The Entrepreneurial Hackathon</h1>
+                    <p class="subtitle" data-key="hero_subtitle">A weekend to innovate, collaborate, and create a concrete impact. The national launchpad for tomorrow's entrepreneurs.</p>
+                    <a href="#participate" class="btn btn-primary" data-key="hero_cta">Register Now!</a>
+                    
+                    <div class="countdown" id="countdown-timer">
+                        <!-- Countdown items will be injected by JS -->
+                    </div>
+                    <p class="date-notice" data-key="hero_date_notice">Dates are tentative and subject to change based on venue availability.</p>
+
+                    <div class="school-logos">
+                        <p data-key="hero_schools">Bringing together talent from</p>
+                        <div class="logos-container">
+                             <img src="images/hecParis.png" alt="HEC Paris Logo">
+                             <img src="images/sciencesPo.jpg" alt="Sciences Po Logo">
+                             <img src="images/Logo-essec.jpg" alt="ESSEC Logo">
+                             <img src="images/Logo-EMLV.png" alt="EMLV Logo">
+                             <img src="images/esilv-logo.png" alt="ESILV Logo">
+                             <img src="images/LogoIIM.png" alt="IIM Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Guidelines Page -->
+        <section id="guidelines">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-key="guidelines_title">Eligibility Criteria</h2>
+                    <p data-key="guidelines_subtitle">The DeVinci Challenge is open to all motivated individuals, with or without a pre-existing project. Here's what you need to know to participate.</p>
+                </div>
+                <div class="guidelines-grid">
+                    <div class="guideline-card fade-in">
+                        <i class="fas fa-users"></i>
+                        <h3 data-key="guidelines_card1_title">Teams of 3 to 5</h3>
+                        <p data-key="guidelines_card1_text">Assemble your team. Collaboration is the key to success. Each team must consist of 3 to 5 students.</p>
+                    </div>
+                    <div class="guideline-card fade-in">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3 data-key="guidelines_card2_title">Student Status</h3>
+                        <p data-key="guidelines_card2_text">You must be enrolled in a higher education institution. Proof of enrollment will be required.</p>
+                    </div>
+                    <div class="guideline-card fade-in">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3 data-key="guidelines_card3_title">All Profiles Welcome</h3>
+                        <p data-key="guidelines_card3_text">Whether you are in business, engineering, design, or another field, your talent is welcome to create innovative projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agenda Page -->
+        <section id="agenda">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-key="agenda_title">Hackathon Schedule</h2>
+                    <p data-key="agenda_subtitle">From team formation to the final pitch, discover the key stages that will define this intense and creative weekend.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-container left fade-in">
+                        <div class="timeline-content">
+                            <h3 data-key="agenda_step1_title">Step 1: Registration</h3>
+                            <p data-key="agenda_step1_text">Form a team of 3 to 5 people, ensuring each member is enrolled in a higher education institution and apply for registeration.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right fade-in">
+                        <div class="timeline-content">
+                            <h3 data-key="agenda_step2_title">Step 2: Application</h3>
+                            <p data-key="agenda_step2_text">Pass the selection phase to confirm your participation in the hackathon.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container left fade-in">
+                        <div class="timeline-content">
+                            <h3 data-key="agenda_step3_title">Step 3: The Kick-off</h3>
+                            <p data-key="agenda_step3_text">The weekend begins with the announcement of the problem statement. Get ready to brainstorm!</p>
+                        </div>
+                    </div>
+                     <div class="timeline-container right fade-in">
+                        <div class="timeline-content">
+                            <h3 data-key="agenda_step4_title">Step 4: Development</h3>
+                            <p data-key="agenda_step4_text">Collaborate with your team to develop an innovative and concrete solution.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container left fade-in">
+                        <div class="timeline-content">
+                            <h3 data-key="agenda_step5_title">Step 5: Jury & Afterwork</h3>
+                            <p data-key="agenda_step5_text">Present your project to a panel of experts, investors and mentors. The weekend concludes with an afterwork for networking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Participate Page -->
+        <section id="participate">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-key="participate_title">Join the Challenge</h2>
+                    <p data-key="participate_subtitle">Ready to take on the challenge? Click the button below to register your team by email. We will contact you with the next steps.</p>
+                </div>
+                <div class="participate-action">
+                    <button id="participate-btn" class="btn btn-primary" data-key="participate_cta">Register via Email</button>
+                    <p id="participate-notice" class="form-notice"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-key="contact_title">Contact Us</h2>
+                    <p data-key="contact_subtitle">Have a question? Feel free to write to us.</p>
+                </div>
+                <div class="form-container">
+                     <form id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name" data-key="contact_name">Your Name</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email" data-key="contact_email">Your Email</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-key="contact_message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;" data-key="contact_send">Send Message</button>
+                        <p id="contact-notice" class="form-notice"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <img src="images/logo.jpg" alt="Club Entrepreneurs Logo" class="footer-logo">
+                    <h3>Club Entrepreneurs</h3>
+                    <p data-key="footer_about">The leading entrepreneurship association at Pôle Léonard de Vinci, directly connected with the Devinci Startup ecosystem.</p>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_nav">Navigation</h3>
+                    <a href="#home" class="nav-link" style="color:white; display:block;" data-key="nav_home">Home</a>
+                    <a href="#guidelines" class="nav-link" style="color:white; display:block;" data-key="nav_guidelines">Guidelines</a>
+                    <a href="#agenda" class="nav-link" style="color:white; display:block;" data-key="nav_agenda">Agenda</a>
+                    <a href="#participate" class="nav-link" style="color:white; display:block;" data-key="nav_participate">Participate</a>
+                </div>
+                <div class="footer-col">
+                    <h3 data-key="footer_social">Follow Us</h3>
+                    <p data-key="footer_community">Join our community online!</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/clubentrepreneurs.devinci/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/clubentrepreneurs/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-key="footer_copyright">&copy; 2025 Club Entrepreneurs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Go to Top Button -->
+    <button id="go-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
